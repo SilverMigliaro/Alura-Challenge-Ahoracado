@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <script type="text/javascript" src="palabras.js" defer></script>
+</head>
+
+<body>
+    <img class="logo" src="img/Logo.png" alt="logo alura">
+    <h1 id="titulo">Ahorcado Alura</h1>
+    <div class="principal">
+        <div class="tablero">
+            <canvas id="canvas"></canvas>
+            <div id="mensaje"></div>
+        </div>
+        <div class="palabras">
+            <div id="letras_usadas"></div>
+            <div id="contenedor_palabra"></div>
+        </div>
+        <div id="botones">
+            <button class="boton" id="iniciar">Iniciar</button>
+            <button class="boton" id="agregar">Agregar</button>
+        </div>
+    </div>
+</body>
+
+</html>
